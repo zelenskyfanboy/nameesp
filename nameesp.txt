@@ -53,7 +53,7 @@ local scriptSource = [[
     local dot = zero.Dot
  
     local espData = {}
-    local healthbarData = game:HttpGet("https://i.imgur.com/FpnD6XG.png")
+    local healthbarData = game:HttpGet("")
     local defaultProperties = {
         Thickness = 1,
         Filled = false,
