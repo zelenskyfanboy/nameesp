@@ -16,7 +16,7 @@ local scriptSource = [[
         names = true,
         nameSize = 12,
         nameOffset = 6,
-        nameColor = Color3.fromRGB(223, 107, 255),
+        nameColor = Color3.fromRGB(255, 255, 255),
         nameOutline = true,
         healthBars = false,
         healthBarOffset = -5,
@@ -53,7 +53,7 @@ local scriptSource = [[
     local dot = zero.Dot
  
     local espData = {}
-    local healthbarData = game:HttpGet("")
+    local healthbarData = game:HttpGet("https://i.imgur.com/FpnD6XG.png")
     local defaultProperties = {
         Thickness = 1,
         Filled = false,
